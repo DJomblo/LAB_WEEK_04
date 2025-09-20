@@ -25,8 +25,13 @@
         android:label="DetailFragment"
         tools:layout="@layout/fragment_detail" />
     <fragment
-        android:id="@+id/cafeFragment2"
+        android:id="@+id/cafeFragment"
         android:name="com.example.lab_week_04.CafeFragment"
         android:label="fragment_cafe"
         tools:layout="@layout/fragment_cafe" />
+    <fragment
+        android:id="@+id/cafeDetailFragment"
+        android:name="com.example.lab_week_04.CafeDetailFragment"
+        android:label="fragment_cafe_detail"
+        tools:layout="@layout/fragment_cafe_detail" />
 </navigation>
